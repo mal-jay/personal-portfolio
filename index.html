@@ -10,27 +10,288 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     
-    <!-- Bootstrap -->
+<!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!-- The iconic SVG, font, and CSS toolkit -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="main.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <div class="container-fluid"></div>
+    <!-- Navigation Section -->
 
+    <nav class="navbar fixed-top shadow-sm navbar-expand-md bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5">
+                <span class="text-primary font-weight-bold">Malaka</span> Portfolio
+            </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link ">About</a>
+                <a href="#skills" class="nav-item nav-link ">Skills</a>
+                <a href="#contact" class="nav-item nav-link ">Contact</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Header Section -->
+
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-item-center">
+                <div class="col-lg-7 hero-text text-lg-left pb-5">
+                    <h1 class="display-3 text-uppercase text-primary mb-" style="-webkit-text-stroke: 4px #ffffff;">Malaka Jayayasundara</h1>
+                    <h3 class="text-white font-weight-notmal mb-3">Web Developer, Photographer</h3>
+
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-4">
+                        <a href="#about" class="btn btn-blue d-none d-sm-block">About me</a>
+                    </div>
+                </div>
+                <!-- image -->
+                <div class="about-img col-lg-5 px-8 pl-lg-0 pb-5 pb-lg-4">
+                    <img src="images/profile.jpg" alt="flower" class="img-fluid w-100 rounded-circle shadow-sm">
+                </div>
+            </div>
+        </div>
+    </div> <!--end Header -->
+
+  <!-- ============ About Section =========== -->
+
+<div class="container-fluid py-5" id="about">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dde3e9;">
+                About
+            </h1>
+            <h1 class="position-absolute text-uppercase text-primary">About me</h1>
+        </div>
+        <div class="col-lg-5 pb-4 pb-lg-0">
+            <img src="images/profile.jpg" alt="about me" class="img-fluid rounded w-100">
+        </div>
+        <div class="col-lg-7">
+            <h3 class="mb-4">
+                Web Developer
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatum sapiente veniam magni odio rerum repudiandae blanditiis placeat temporibus saepe nam delectus doloremque adipisci, velit dicta in soluta quasi at.</p>
+            <div class="row mb-3">
+                <div class="col-sm-6 py-2">
+                    <h6>Name: <span class="text-secondary">Malaka Jayasundara</span></h6>
+                </div>
+                <div class="col-sm-6 py-2">
+                    <h6>Website: <span class="text-secondary">malaka.com</span></h6>
+                </div>
+                <div class="col-sm-6 py-2">      
+                    <h6>Phone: <span class="text-secondary">+61 410 100 100</span></h6>
+                </div>
+                <div class="col-sm-6 py-2">
+                    <h6>email: <span class="text-secondary">malaka@gmail.com</span></h6>
+                </div>
+                <div class="col-sm-6 py-2">
+                    <h6>City: <span class="text-secondary">Brisbane, Australia</span></h6>
+                </div>
+                <div class="col-sm-6 py-2">
+                    <h6>Freelance: <span class="text-secondary">Available</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> <!--end About Section -->
+
+<!-- ============== Skill Section ============== -->
+
+<div class="container-fluid py-5" id="skills">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dde3e9;">
+                Skills
+            </h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">HTML</h6>
+                        <h6 class="font-width-bold">95%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">CSS</h6>
+                        <h6 class="font-width-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">Javascript</h6>
+                        <h6 class="font-width-bold">50%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">WORDPRESS/CMS</h6>
+                        <h6 class="font-width-bold">60%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">dJango</h6>
+                        <h6 class="font-width-bold">70%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">git</h6>
+                        <h6 class="font-width-bold">60%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">Photoshop</h6>
+                        <h6 class="font-width-bold">65%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-width-bold text-uppercase">Bootstrap</h6>
+                        <h6 class="font-width-bold">75%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End Skill Section -->      
+
+<!-- ================ Contact me ================== -->
+<div class="container-fluid py-5" id="contact">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dde3e9;">
+                Contact
+            </h1>
+            <h1 class="position-absolute text-uppercase text-primary">Contact me</h1>
+        </div> 
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-form text-center">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="control-group col-sm-6">
+                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group col-sm-6">
+                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                    required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                required="required"
+                                data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div> 
+<!-- End Contact page -->
+<div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5">
+    <div class="container text-center py-5">
+        <div class="d-flex justify-content-center mb-4">
+            <a class="btn btn-light btn-social mr-8" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-light btn-social mr-8" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-light btn-social mr-8" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+            <a class="text-white" href="#">Privacy</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">Terms</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">FAQs</a>
+            <span class="px-3">|</span>
+            <a class="text-white" href="#">Help</a>
+        </div>
+        <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">MalCode</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Malaka Code</a>
+        </p>
+    </div>
+</div>
+<!-- Footer End -->
 <!-- js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

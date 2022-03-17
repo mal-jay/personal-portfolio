@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1.15;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #79848d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.about-img{
+    margin-left: -50px;
+    right: -60px;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-white{
+background-color: #ffffff;
+border: 2px solid #ffffff;
+}
+
+.btn-blue{
+    border: 2.4px solid #ffffff;
+    color: #ffffff;
+}
+
+.hero-text{
+    margin-top: 150px;
+}
+
+.typed-cursor{
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.position-absolute{
+    font-weight: 700;
+}
+
+/*  ======= Navigation Menu ======== */
+
+a {
+    color: #11d8b7;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #078571;
+    text-decoration: underline;
+}
+/* .navbar-light{
+    display: none;
+} */
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 25px 10px;
+    color: #3e444b;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: #11d8b7;
+}
+/*===================== Progress Bar ====================*/
+
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }
+.display-1{
+    font-size: 120px;
+    font-weight: 1000;
+}  
+
+.position-absolute{
+    font-weight: 700;
+}
