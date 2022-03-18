@@ -55,7 +55,7 @@ border: 2px solid #ffffff;
 /*  ======= Navigation Menu ======== */
 
 a {
-    color: #11d8b7;
+    color: #103778;
     text-decoration: none;
     background-color: transparent;
 }
@@ -76,7 +76,7 @@ a:hover {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active{
-    color: #11d8b7;
+    color: #103778;
 }
 /*===================== Progress Bar ====================*/
 
@@ -97,3 +97,24 @@ a:hover {
 .position-absolute{
     font-weight: 700;
 }
+/* =================== Portfolio section ==================*/
+
+
+.portfolio-item .portfolio-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  .portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    top: 30px;
+    left: 30px;
+  }

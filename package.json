@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-web",
+  "version": "1.0.0",
+  "description": "This is my Project1 - Personal Portfolio website. I use Git and GitHub for version control and publish it frim VS code.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-jay/personal-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mal-jay/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/mal-jay/personal-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
